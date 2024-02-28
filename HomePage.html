@@ -1,0 +1,171 @@
+<link rel="stylesheet" href="./style.css">
+<script>
+    const $next = document.querySelector('.next');
+    const $prev = document.querySelector('.prev');
+
+    $next.addEventListener('click',
+        () => {
+            const items = document.querySelectorAll('.item');
+            document.querySelector('.slide').appendChild(items[0]);
+        },
+    );
+
+    $prev.addEventListener('click',
+        () => {
+            const items = document.querySelectorAll('.item');
+            document.querySelector('.slide').prepend(items[items.length - 1]);
+        }
+    );
+
+
+</script>
+<nav>
+    <div class="Logo">
+        <h2>🍓🍉🍇🍍🍒THE WEB SITE</h2>
+    </div>
+    <div class="navigations">
+        <a href="./HomePage.html" target="_blank">Home</a>
+        <a href="./Fruits.html" target="_blank">Fruits</a>
+        <a href="./Vegatable.html" target="_blank">Vegetables</a>
+        <a href="./HealthyDiets.html" target="_blank">Healthy Diets</a>
+        <a href="./AboutUs.html">About Us</a>
+    </div>
+</nav>
+<br><br>
+<H1 id="return">WELCOME TO OUR WEIGHT-LOSS DIET PROGRAM</H1>
+<br><br>
+<div class="theslider">
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url(./Fresh-Vegetables-and-Fruits-Wallpaper-for-Wall.jpg)">
+                <div class="content">
+                    <div class="name">
+                        Vegetables</div>
+                    <div class="des">Embrace vitality and wellness with the colorful abundance of nature's gifts</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url(./difference-between-fruits-vegetables-01-5f92e7ec706b463287bcfb46985698f9.jpg);">
+                <div class="content">
+                    <div class="name">
+                        Fruits
+                    </div>
+                    <div class="des">Savour the sweetness of nature's jewels and nurture your well-being with the
+                        vibrant
+                        spectrum of fruits</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./yellow-fruit-flower.jpg)">
+                <div class="content">
+                    <div class="name">
+                        Vegetables</div>
+                    <div class="des">Embrace vitality and wellness with the colorful abundance of nature's gifts</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url(./pngtree-fruits-wallpaper-fruit-wallpaper-picture-image_2884694.jpg);">
+                <div class="content">
+                    <div class="name">
+                        Fruits
+                    </div>
+                    <div class="des">Savour the sweetness of nature's jewels and nurture your well-being with the
+                        vibrant
+                        spectrum of fruits</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Fresh-Vegetables-and-Fruits-Wallpaper-for-Wall.jpg)">
+                <div class="content">
+                    <div class="name">
+                        Vegetables</div>
+                    <div class="des">Embrace vitality and wellness with the colorful abundance of nature's gifts</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item"
+                style="background-image: url(./pngtree-fruits-wallpaper-fruit-wallpaper-picture-image_2884694.jpg);">
+                <div class="content">
+                    <div class="name">
+                        Fruits
+                    </div>
+                    <div class="des">Savour the sweetness of nature's jewels and nurture your well-being with the
+                        vibrant
+                        spectrum of fruits</div>
+                    <button>See More</button>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="prev" onclick="const items = document.querySelectorAll('.item');
+            document.querySelector('.slide').prepend(items[items.length-1]);
+            "><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next" onclick="const items = document.querySelectorAll('.item');
+            document.querySelector('.slide').appendChild(items[0]);
+            "><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="into">
+    <img class="intoimg" src="./shutterstock_622381799-1.jpg" alt="">
+    <p>Welcome to our weight loss website, your trusted companion on the journey to a healthier you. Here, we
+        understand
+        the challenges of achieving and maintaining a balanced weight, and we're here to support you every step of
+        the
+        way.
+
+        Our comprehensive resources offer expert guidance, personalized plans, and motivational tools to empower you
+        to
+        reach your goals. From nutritious meal plans to effective workout routines, we provide the tools you need to
+        make sustainable lifestyle changes.
+
+        Join our community of like-minded individuals dedicated to transforming their lives and reclaiming their
+        health.
+        Together, let's embark on a journey towards a happier, fitter, and more vibrant future.
+    </p>
+</div>
+
+<p>SOME EXAMPLES</p>
+<div class="theslider">
+    <div class="art">
+        <img class="rp" src="./banane-cavendish-large.jpg" alt="">
+        BANANA :Indulge in the creamy goodness of a banana,nature's convenient and nutrious delight.
+    </div>
+    <div class="art" left="50%">
+        <img class="rp" src="./Pineapple_600x@2x.webp" alt="">
+        Pineapple :Experience the tropical burst of sunshine with the juicy, tangy perfetion of the Pineapple.
+    </div>
+    <div class="art">
+        <img class="rp" src="./Peper-verse-rode-peper-45749-large.jpg" alt="">
+        Peper:What best to add flavour to our food?
+    </div>
+</div>
+<div class="into">
+    <p>Discover a wealth of wellness wisdom by exploring our other pages. Dive into our recipe collection for delicious
+        and nutritious meal ideas, uncover workout routines tailored to your fitness level, and delve into our blog for
+        inspiration and motivation on your journey to a healthier lifestyle. Your path to wellness awaits –
+        start exploring now!</p>
+    <img class="intoimg" src="./2024_02_27_11_20_IMG_8573.JPG" alt="">
+</div>
+<div class="into1">
+<div class="icons">
+    <img src="./icons8_citrus_100px.png" alt=""><img src="./icons8_citrus_48px.png" alt=""><img src="./icons8_citrus_64px.png" alt=""><img src="./icons8_grape_64px.png" alt=""><img src="./icons8_group_of_fruits_48px.png" alt=""><img src="./icons8_raspberry_32px.png" alt=""><img src="./icons8_raspberry_48px.png" alt="">
+</div>
+    <p>GET TO KNOW MORE OM OUR SITE WITH OUR DEAILED PAGES ON <a href="./Fruits.html">FRUITS </a>AND <a
+            href="./Vegatable.html">VEGETABLES 😁😃😎</a></p>
+</div>
+<div class="footer">
+    <p>Thanks for visting our web site <a href="#return" >😁Go to the TOP</a> </p>
+    <div class="personinfo">
+        <a href=""><img src="./icons8_google_48px.png" alt="" > : signe.iriss@gmail.com</a>
+        <a href="http://facebook.com" target="_blank"><img src="./icons8_facebook_48px.png" alt=""></a>
+        <a href="http://twitter.com" target="_blank"><img src="./icons8_twitter_48px.png" alt="" title="KingStim13"></a>
+        <a href="https://www.whatsapp.com" target="_blank"><img src="./icons8_whatsapp_48px.png" alt=""
+                title=" copy : +237 698296621"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./icons8_instagram_48px.png" alt="" title="_mr_stim_"></a>
+    </div>
+</div>
